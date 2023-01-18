@@ -6,7 +6,7 @@ pipeline{
     stages{
        stage('GetCode'){
             steps{
-                git 'clone https://github.com/prasanthplavada/MavenJacoco.git'
+                git 'https://github.com/prasanthplavada/MavenJacoco.git'
             }
          }
        stage('mvn clean Package'){
