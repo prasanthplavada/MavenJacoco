@@ -6,7 +6,7 @@ pipeline{
     stages{
        stage('GetCode'){
             steps{
-                sh 'git clone https://github.com/dptrealtime/java-login-app.git'
+                sh 'git clone https://github.com/prasanthplavada/MavenJacoco.git'
             }
          }
        stage('mvn clean Package'){
